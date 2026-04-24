@@ -28,7 +28,7 @@ class ExpenseTracker:
         else:
             print("No matching expenses.")
 
-    def delete_expense(self, title):
+  def delete_expense(self, title):
         before = len(self.expenses)
         self.expenses = [e for e in self.expenses if e.title.lower() != title.lower()]
         after = len(self.expenses)
@@ -38,15 +38,15 @@ class ExpenseTracker:
         else:
             print("Expense deleted.")
 
-    def sort_expenses(self):
+  def sort_expenses(self):
         self.expenses.sort(key=lambda e: e.amount, reverse=True)
         print("Expenses sorted by amount.")
 
-    def total_expense(self):
+  def total_expense(self):
         total = sum(e.amount for e in self.expenses)
         print(f"Total Expenses: ₱{total:.2f}")
 
-    def category_summary(self):
+  def category_summary(self):
         summary = {}
 
         for e in self.expenses:
@@ -56,12 +56,12 @@ class ExpenseTracker:
         for cat, total in summary.items():
             print(f"{cat}: ₱{total:.2f}")
 
-    def save_data(self):
+  def save_data(self):
         with open(self.file_path, "w") as f:
             json.dump([e.to_dict() for e in self.expenses], f, indent=4)
         print("Data saved.")
 
-    def load_data(self):
+  def load_data(self):
         try:
             with open(self.file_path, "r") as f:
                 data = json.load(f)
