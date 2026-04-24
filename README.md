@@ -1,2 +1,5 @@
-# Tumabiene_AlbertLance_FinalProject
-Final Project for CCCS-103
+# Expense Tracker (CLI)
+## Description
+A command-line application that helps users track daily expenses, categorize spending, and analyze totals.
+
+
