@@ -1,3 +1,8 @@
+"""
+main.py
+CLI interface for Expense Tracker.
+"""
+
 from tracker import ExpenseTracker
 
 
