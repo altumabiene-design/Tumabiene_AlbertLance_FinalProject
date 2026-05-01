@@ -15,6 +15,16 @@ Each expense includes a unique ID, title, amount, category, and date, enabling b
 - Generate category-based summary
 - Save and load data using JSON file
 
+##  How to Run
+1. Open terminal
+2. Navigate to project folder
+3. Run:
+   python src/main.py
+
+## Technologies Used
+- Python 3
+- JSON for data storage
+
 
 ## Sample CLI Usage
 <img width="138" height="149" alt="MEnu" src="https://github.com/user-attachments/assets/e52c7a67-b129-4824-8e3a-8cf6dc54ef48" />
