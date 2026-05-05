@@ -1,6 +1,7 @@
 """
 expense.py
-Defines the Expense class.
+
+Defines the Expense class used to store individual expense records.
 """
 
 class Expense:
