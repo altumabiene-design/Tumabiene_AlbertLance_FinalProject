@@ -1,6 +1,8 @@
 """
 tracker.py
-Handles all expense operations.
+
+Handles expense tracking operations such as add, view, search,
+delete, sort, summary, and file storage.
 """
 
 import json
