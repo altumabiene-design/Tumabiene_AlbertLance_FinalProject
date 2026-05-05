@@ -1,6 +1,8 @@
 """
 main.py
-CLI interface for Expense Tracker.
+
+Command-line interface for the Expense Tracker application.
+Handles user input and menu navigation.
 """
 
 from tracker import ExpenseTracker
